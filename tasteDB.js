@@ -99,7 +99,7 @@ const tasteDB = {
         comment: "you appreciate the classics. maybe youre a little outdated, but you still got taste.",
         score: 7
     },
-    "lewis armstrong": {
+    "louis armstrong": {
         category: "jazz",
         comment: "you appreciate the classics. maybe youre a little outdated, but you still got taste.",
         score: 8
