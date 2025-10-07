@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>let me judge u.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="start-screen">
+    <h1>let me judge u.</h1>
+    <h2>judging ur music taste.</h2>
+
+    <input placeholder="enter 3 artists, separated by commas" id="artists">
+    <button id="judge-button">judge me</button>
+
+    <p> made by tats morales </p>
+</section>
+
+<section id="loading-screen" style="display: none">
+    <p>let me think...</p>
+    <div class="spinner"></div>
+    <p>you like interesting shi...</p>
+</section>
+
+<section id="result-screen" style="display: none">
+    <h2>MY VEREDICT</h2>
+    <h1 id="veredict"></h1>
+    <p id="comment"></p>
+    <p id="score"></p>
+    <button id="retry-button">retry?</button>
+</section>
+<script src="tastes.js"></script>
+<script src="judging.js"></script>
+</body>
+</html>
