@@ -1,12 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
 body {
-    background-color: darkblue;
+    background: #2D31FA;
+    background: linear-gradient(90deg,rgba(45, 49, 250, 1) 0%, rgb(12, 34, 149) 100%);
     transition: background-color 0.5s ease;
     font-family: instrument serif;
     color: white;
     text-align: center;
+    vertical-align: center;
     margin-top: 15vh;
+}
+
+button {
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #2D31FA;
+    color: white;
+    margin-left: 0.5rem;
+    font-family: lexend;
+}
+
+#judge-button {
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    background-color: #2D31FA;
+    color: white;
+    margin-left: 0.5rem;
+    font-family: lexend;
+}
+
+body.kpop #retry-button {
+    background-color: rgb(58, 30, 115);
+    color: white;
+}
+
+body.basic #retry-button {
+    background-color: hotpink;
+    color: white;
+}
+
+body.jazz #retry-button {
+    background-color: white;
+    color: darkolivegreen;
+}
+
+body.existential #retry-button {
+    background-color: dodgerblue;
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    vertical-align: center;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
+}
+p {
+    font-size: 1.2rem;
+    font-family: lexend;
+    text-align: center;
+    vertical-align: center;
 }
 
 body.rock {
@@ -18,9 +78,9 @@ body.niche {
     font-family: fascinate;
 }
 body.basic {
-    background-color: hotpink;
+    background-color: white;
     font-family: borel;
-    color: black;
+    color: hotpink;
 }
 body.me {
     background-color: dodgerblue;
@@ -40,10 +100,15 @@ body.hiphop {
 }
 body.kpop {
     background-color: rgba(243,196,255);
-    font-family: racing-sans one;
+    font-family: racing sans one;
     color: rgb(58, 30, 115)
 }
 body.techno {
+    background-color: black;
+    color: dodgerblue;
+}
+
+body.spanish-rock {
     background-color: black;
     color: dodgerblue;
 }
@@ -58,3 +123,12 @@ body.techno {
     animation: spin 1s linear infinite;
 }
 @keyframes spin { 100% { transform: rotate(360deg); } }
+
+input {
+    background-color: white;
+    font-family: lexend;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 8px;
+    border-color: transparent;
+}

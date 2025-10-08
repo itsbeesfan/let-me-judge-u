@@ -184,4 +184,64 @@ const tasteDB = {
         comment: "youre a massive stan... maybe to an obsessive point. you scare me a little.",
         score: 6
     },
+    "depresion sonora": {
+        category: "spanish-rock",
+        comment: "follow your own rules, live your life. youre super rad.",
+        score: 9
+    },
+    "milo j": {
+        category: "spanish-trap",
+        comment: "you like the trap stuff, and you vibe with the deep lyrics and homage to argentinian culture. massive respect.",
+        score: 9
+    },
+    "c. tangana": {
+        category: "spanish-trap",
+        comment: "tell me you fw tiny desks, sick trap origins and folklore homages without telling me you like all that. i love you.",
+        score: 8
+    },
+    "trueno": {
+        category: "spanish-trap",
+        comment: "you like sick verses, rap and trap. you're also probably really hype.",
+        score: 8
+    },
+    "enjambre": {
+        category: "spanish-rock",
+        comment: "this is the mexican equivalent of the arctic monkeys, and i fw that heavy.",
+        score: 8
+    },
+    "zoe": {
+        category: "spanish-rock",
+        comment: "lots of soul, lots of love life disappointment. also either you fw the unplugged vibe or the classic vibe.",
+        score: 8
+    },
+    "los enanitos verdes": {
+        category: "spanish-rock",
+        comment: "you like THE classics. you also probably wish you were born in the 80s.",
+        score: 8
+    },
+    "enanitos verdes": {
+        category: "spanish-rock",
+        comment: "you like THE classics. you also probably wish you were born in the 80s.",
+        score: 8
+    },
+    "soda stereo": {
+        category: "spanish-rock",
+        comment: "you wish you were argentinian. you also wish you were cerati.",
+        score: 8
+    },
+    "gustavo cerati": {
+        category: "spanish-rock",
+        comment: "you think you're a hopeless romantic. maybe you are, but is it really a good thing?",
+        score: 7
+    },
+    "hombres g": {
+        category: "spanish-rock",
+        comment: "you're either a 50-year old or a teenager that found out about their existence not too long ago.",
+        score: 7
+    },
+    "mana": {
+        category: "spanish-rock",
+        comment: "you cry to their lyrics. sometimes you can't relate, but man, they shake your bones.",
+        score: 7
+    },
 }

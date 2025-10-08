@@ -59,6 +59,9 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "kpop":
                 veredict = "you definitely have a bias. i can't judge you though.";
                 break;
+            case "spanish-rock":
+                veredict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
+                break;
             default:
                 veredict = "i literally cannot categorize you, idk what your vibe is..."
         }
