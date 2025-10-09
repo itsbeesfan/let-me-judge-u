@@ -37,7 +37,7 @@ body.kpop #retry-button {
 }
 
 body.basic #retry-button {
-    background-color: hotpink;
+    background-color: #ff7aa2;
     color: white;
 }
 
@@ -77,9 +77,10 @@ body.niche {
     font-family: fascinate;
 }
 body.basic {
-    background-color: white;
+    background: #FFE0E9;
+    background: radial-gradient(circle, rgba(255, 224, 233, 1) 0%, rgba(245, 140, 168, 1) 100%);
     font-family: borel;
-    color: hotpink;
+    color: #d90368;
 }
 body.me {
     background: #1E90FFFF;
@@ -159,3 +160,6 @@ input {
     100% { transform: scale(1); opacity: 1; }
 }
 
+#stickers.basic {
+    width: 14rem;
+}
