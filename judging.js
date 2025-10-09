@@ -94,9 +94,9 @@ document.getElementById("judge-button").addEventListener("click", () => {
             ],
             existential: [
                 { src: "existential-assets/cat.png", top: "30%", left: "5%"},
-                { src: "existential-assets/cigarettes.png", bottom: "15%", right: "10%" },
+                { src: "existential-assets/cloud.png", bottom: "15%", right: "10%" },
                 { src: "existential-assets/eye.png", top: "7%", right: "10%" },
-                { src: "existential-assets/ticket.png", bottom: "10%", left: "40%" },
+                { src: "existential-assets/typewriter.png", bottom: "10%", left: "40%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},

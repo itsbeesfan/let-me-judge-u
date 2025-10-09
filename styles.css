@@ -157,9 +157,7 @@ input {
     animation: popIn 0.4s ease forwards;
     padding: 0.5rem;
 }
-#stickers:hover {
-    transform: scale(1.5);
-}
+
 
 @keyframes popIn {
     0% { transform: scale(0.8); opacity: 0; }
@@ -167,5 +165,12 @@ input {
 }
 
 #stickers.basic {
+    width: 14rem;
+}
+
+#stickers.existential {
+    width: 14rem;
+}
+.sticker.existential {
     width: 14rem;
 }
