@@ -73,8 +73,38 @@ document.getElementById("judge-button").addEventListener("click", () => {
         scoreEl.textContent = `score: ${avg.toFixed(1)}/10`;
 
         document.body.className = theme || "";
+
+        // stickers and shiiiii
+        const stickerContainer = document.getElementById("stickers");
+
+        stickerContainer.innerHTML = ""
+
+        const stickerSets = {
+            kpop: [
+                { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
+                { src: "kpop-assets/flower%20asset.png", bottom: "25%", right: "10%" },
+                { src: "kpop-assets/hollow%20star%20asset.png", top: "2%", right: "20%" },
+                { src: "kpop-assets/star%20dash%20asset.png", bottom: "10%", left: "50%" },
+                { src: "kpop-assets/star%20sticker%20asset.png", bottom: "30%", left: "15%" },
+            ]
+        };
+
+        if (stickerSets[theme]) {
+            stickerSets[theme].forEach(sticker => {
+                const img = document.createElement("img");
+                img.src = sticker.src;
+                img.classList.add("sticker");
+                if (sticker.top) img.style.top = sticker.top;
+                if (sticker.bottom) img.style.bottom = sticker.bottom;
+                if (sticker.left) img.style.left = sticker.left;
+                if (sticker.right) img.style.right = sticker.right;
+                stickerContainer.appendChild(img);
+            });
+        }
+
     }, 2500);
 });
+
 
 document.getElementById("retry-button").addEventListener("click", () => {
     resultScreen.style.display = "none";
@@ -88,3 +118,4 @@ function getDominantCategory(arr) {
     arr.forEach(cat => freq[cat] = (freq[cat] || 0) + 1);
     return Object.keys(freq).reduce((a, b) => freq[a] > freq[b] ? a : b);
 }
+
