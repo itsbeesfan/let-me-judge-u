@@ -51,7 +51,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 veredict = "girl, you think you're the main character...";
                 break;
             case "jazz":
-                veredict = "you like in black and white, sip espresso and have a goatee.";
+                veredict = "you listen to analogue, sip espresso and have a goatee.";
                 break;
             case "hiphop":
                 veredict = "you got that laid back, effortlessly cool vibe."
@@ -102,11 +102,18 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "existential-assets/hands.png", bottom: "23%", right: "14%" },
             ],
             hiphop: [
-                { src: "hiphop-assets/graffiti.png", top: "30%", left: "5%"},
+                { src: "hiphop-assets/graffiti.png", top: "26%", left: "3%"},
                 { src: "hiphop-assets/headphones.png", bottom: "25%", right: "12%" },
                 { src: "hiphop-assets/parental%20advisory.png", top: "7%", right: "8%" },
                 { src: "hiphop-assets/vans.png", bottom: "7%", right: "38%" },
-                { src: "hiphop-assets/wasted.png", bottom: "17%", left: "30%" },
+                { src: "hiphop-assets/wasted.png", bottom: "17%", left: "23%" },
+            ],
+            jazz: [
+                { src: "jazz-assets/lick.png", top: "7%", left: "3%"},
+                { src: "jazz-assets/coffee.png", bottom: "25%", right: "12%" },
+                { src: "jazz-assets/pingu.png", top: "4%", right: "8%" },
+                { src: "jazz-assets/sax-cat.png", bottom: "7%", right: "43%" },
+                { src: "jazz-assets/vinyl.png", bottom: "23%", left: "14%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
