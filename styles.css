@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
 body {
-    background: #2D31FA;
-    background: linear-gradient(90deg,rgba(45, 49, 250, 1) 0%, rgb(12, 34, 149) 100%);
+    background-color: #0d10b3;
     transition: background-color 0.5s ease;
     font-family: instrument serif;
     color: white;
