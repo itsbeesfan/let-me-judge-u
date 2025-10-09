@@ -42,7 +42,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
         let veredict;
         switch(theme) {
             case "me":
-                veredict = "omg youre literally me :0 can we be friends??";
+                veredict = "omg you're literally me :0 can we be friends??";
                 break;
             case "existential":
                 veredict = "are you okay? you stare at the ceiling at 2AM, don't you?";
@@ -91,6 +91,12 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "basic-assets/kiss.png", bottom: "15%", right: "10%" },
                 { src: "basic-assets/matcha.png", top: "10%", right: "10%" },
                 { src: "basic-assets/pink%20stamp.png", bottom: "10%", left: "20%" },
+            ],
+            existential: [
+                { src: "existential-assets/cat.png", top: "30%", left: "5%"},
+                { src: "existential-assets/cigarettes.png", bottom: "15%", right: "10%" },
+                { src: "existential-assets/eye.png", top: "7%", right: "10%" },
+                { src: "existential-assets/ticket.png", bottom: "10%", left: "40%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},

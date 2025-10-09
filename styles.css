@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
 body {
-    background-color: #2224b3;
+    background-image: #2224B3;
+    background-image: radial-gradient(circle, rgba(34, 36, 179, 1) 0%, rgba(70, 155, 252, 1) 100%);
     transition: background-color 0.5s ease;
     font-family: instrument serif;
     color: white;
@@ -47,8 +48,12 @@ body.jazz #retry-button {
 }
 
 body.existential #retry-button {
-    background-color: dodgerblue;
+    background-color: #C23110;
     color: white;
+}
+
+h1.existential {
+    font-size: 3.5rem;
 }
 
 h1 {
@@ -88,7 +93,8 @@ body.me {
     font-family: instrument serif;
 }
 body.existential {
-    background-color: darkorange;
+    background: #ed8f13;
+    background: radial-gradient(circle, rgba(237, 143, 19, 1) 0%, rgba(194, 49, 16, 1) 100%);
     font-family: special elite;
 }
 body.jazz {
