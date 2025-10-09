@@ -84,7 +84,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "me-assets/tokyo%20station.png", top: "25%", left: "5%"},
                 { src: "me-assets/exclamation.png", bottom: "15%", right: "10%" },
                 { src: "me-assets/newspaper.jpg", top: "10%", right: "10%" },
-                { src: "me-assets/comic%20asset.png", bottom: "10%", left: "20%" },
+                { src: "me-assets/comic.png", bottom: "10%", left: "20%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
