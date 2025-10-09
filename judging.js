@@ -85,6 +85,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "me-assets/exclamation.png", bottom: "15%", right: "10%" },
                 { src: "me-assets/newspaper.jpg", top: "10%", right: "10%" },
                 { src: "me-assets/comic.png", bottom: "10%", left: "20%" },
+                { src: "me-assets/cat.png", bottom: "3%", right: "37%" },
             ],
             basic: [
                 { src: "basic-assets/disco%20heart.png", top: "7%", left: "5%"},
@@ -94,17 +95,18 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "basic-assets/book.png", bottom: "10%", right: "45%" },
             ],
             existential: [
-                { src: "existential-assets/cat.png", top: "30%", left: "5%"},
-                { src: "existential-assets/cloud.png", bottom: "15%", right: "10%" },
+                { src: "existential-assets/cat.png", top: "38%", left: "5%"},
+                { src: "existential-assets/cloud.png", top: "2%", left: "8%" },
                 { src: "existential-assets/eye.png", top: "7%", right: "10%" },
-                { src: "existential-assets/typewriter.png", bottom: "10%", left: "40%" },
+                { src: "existential-assets/typewriter.png", bottom: "8%", left: "37%" },
+                { src: "existential-assets/hands.png", bottom: "23%", right: "14%" },
             ],
             hiphop: [
                 { src: "hiphop-assets/graffiti.png", top: "30%", left: "5%"},
-                { src: "hiphop-assets/headphones.png", bottom: "15%", right: "10%" },
-                { src: "hiphop-assets/parental%20advisory.png", top: "7%", right: "10%" },
-                { src: "hiphop-assets/vans.png", bottom: "10%", left: "40%" },
-                { src: "hiphop-assets/wasted.png", bottom: "30%", left: "15%" },
+                { src: "hiphop-assets/headphones.png", bottom: "25%", right: "12%" },
+                { src: "hiphop-assets/parental%20advisory.png", top: "7%", right: "8%" },
+                { src: "hiphop-assets/vans.png", bottom: "7%", right: "38%" },
+                { src: "hiphop-assets/wasted.png", bottom: "17%", left: "30%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
