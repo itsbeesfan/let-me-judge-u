@@ -43,8 +43,13 @@ body.basic #retry-button {
 }
 
 body.jazz #retry-button {
-    background-color: white;
-    color: darkolivegreen;
+    background-color: #0A4663;
+    color: white;
+}
+
+body.hiphop #retry-button {
+    background-color: #0A4663;
+    color: white;
 }
 
 body.existential #retry-button {
@@ -102,7 +107,8 @@ body.jazz {
     font-family: skranji
 }
 body.hiphop {
-    background-color: darkolivegreen;
+    background: #556B2FFF;
+    background: radial-gradient(circle, rgba(85, 107, 47, 1) 0%, rgba(10, 70, 99, 1) 100%);
     font-family: indie flower
 }
 body.kpop {
@@ -150,7 +156,7 @@ input {
 
 .sticker {
     position: absolute;
-    width: 12.5rem;
+    width: 13.5rem;
     opacity: 0;
     transform: scale(0.8);
     height: auto;
@@ -173,4 +179,7 @@ input {
 }
 .sticker.existential {
     width: 14rem;
+}
+.sticker.hiphop {
+    width: 20rem;
 }

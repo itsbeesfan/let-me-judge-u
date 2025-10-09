@@ -87,16 +87,24 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "me-assets/comic.png", bottom: "10%", left: "20%" },
             ],
             basic: [
-                { src: "basic-assets/disco%20heart.png", top: "10%", left: "5%"},
-                { src: "basic-assets/kiss.png", bottom: "15%", right: "10%" },
-                { src: "basic-assets/matcha.png", top: "10%", right: "10%" },
-                { src: "basic-assets/pink%20stamp.png", bottom: "10%", left: "20%" },
+                { src: "basic-assets/disco%20heart.png", top: "7%", left: "5%"},
+                { src: "basic-assets/kiss.png", bottom: "25%", right: "10%" },
+                { src: "basic-assets/matcha.png", top: "5%", right: "10%" },
+                { src: "basic-assets/pink%20stamp.png", bottom: "25%", left: "15%" },
+                { src: "basic-assets/book.png", bottom: "10%", right: "45%" },
             ],
             existential: [
                 { src: "existential-assets/cat.png", top: "30%", left: "5%"},
                 { src: "existential-assets/cloud.png", bottom: "15%", right: "10%" },
                 { src: "existential-assets/eye.png", top: "7%", right: "10%" },
                 { src: "existential-assets/typewriter.png", bottom: "10%", left: "40%" },
+            ],
+            hiphop: [
+                { src: "hiphop-assets/graffiti.png", top: "30%", left: "5%"},
+                { src: "hiphop-assets/headphones.png", bottom: "15%", right: "10%" },
+                { src: "hiphop-assets/parental%20advisory.png", top: "7%", right: "10%" },
+                { src: "hiphop-assets/vans.png", bottom: "10%", left: "40%" },
+                { src: "hiphop-assets/wasted.png", bottom: "30%", left: "15%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
