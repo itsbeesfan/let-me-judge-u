@@ -26,6 +26,21 @@ body {
     scale: 1.02;
 }
 
+body.me #retry-button {
+    background-color: rgb(34, 36, 207);
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.me #retry-button:hover {
+    background-color: rgb(13, 16, 179);
+    scale: 1.02;
+}
+
 body.kpop #retry-button {
     background-color: rgb(58, 30, 115);
     color: white;
@@ -89,6 +104,22 @@ body.hiphop #retry-button:hover {
     scale: 1.02;
 }
 
+body.spanish-trap #retry-button {
+    background-color: #731e38;
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.spanish-trap #retry-button:hover {
+    background-color: #500d24;
+    color: white;
+    scale: 1.02;
+}
+
 body.existential #retry-button {
     background-color: #C23110;
     color: white;
@@ -106,7 +137,7 @@ body.existential #retry-button:hover {
 }
 
 body.spanishrock #retry-button {
-    background-color: #dc6320;
+    background-color: #ed8043;
     color: white;
     width: 6rem;
     height: 2.4rem;
@@ -116,7 +147,23 @@ body.spanishrock #retry-button {
 }
 
 body.spanishrock #retry-button:hover {
-    background-color: #cd5712;
+    background-color: #ea6d23;
+    color: white;
+    scale: 1.02;
+}
+
+body.chillrock #retry-button {
+    background-color: #d85f0a;
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.chillrock #retry-button:hover {
+    background-color: #df5a13;
     color: white;
     scale: 1.02;
 }
@@ -190,10 +237,16 @@ body.spanishrock {
     background: radial-gradient(circle, rgba(212, 103, 25, 1) 0%, rgba(192, 93, 23, 1) 19%, rgba(183, 89, 22, 1) 23%, rgba(3, 0, 0, 1) 100%);;
     color: #f3ddca;
 }
+body.chillrock {
+    background: #1A936F;
+    background: radial-gradient(circle, rgba(26, 147, 111, 1) 0%, rgba(17, 75, 95, 1) 100%);
+    color: #faeade;
+}
 
 body.spanish-trap {
-    background: black;
-    color: dodgerblue;
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: #eddfff;
 }
 
 .spinner {

@@ -72,7 +72,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "spanish-trap":
                 veredict = "you're an absolute party beast AND/OR you blast your music everywhere you go.";
                 break;
-            case "chill-rock":
+            case "chillrock":
                 veredict = "you vibe to your own sound, and you probably know a little bit of guitar, bass or drums.";
                 break;
             case "hype-rock":
@@ -137,6 +137,13 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "spanishrock-assets/gatito.png", top: "2%", right: "8%" },
                 { src: "spanishrock-assets/guitarra.png", bottom: "7%", right: "43%" },
                 { src: "spanishrock-assets/pedrito.png", bottom: "18%", left: "14%" },
+            ],
+            chillrock: [
+                { src: "chillrock-assets/converse.png", top: "5%", left: "3%"},
+                { src: "chillrock-assets/guitar.png", bottom: "25%", right: "12%" },
+                { src: "chillrock-assets/sticker.png", top: "2%", right: "8%" },
+                { src: "chillrock-assets/snoopy.png", bottom: "7%", right: "43%" },
+                { src: "chillrock-assets/walkman.png", bottom: "18%", left: "14%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},

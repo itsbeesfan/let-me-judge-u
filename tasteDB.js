@@ -207,6 +207,11 @@ const tasteDB = {
         comment: "haunting and deeply relatable alt/indie/psychedelic rock. you good, buddy?",
         score: 8
     },
+    "mitski": {
+        category: "existential",
+        comment: "you need URGENT therapy. also, what's your tumblr? im sure you have one.",
+        score: 8
+    },
 
 
     // KPOP VEREDICT
@@ -340,37 +345,37 @@ const tasteDB = {
 
     // CHILL ROCK VEREDICT
     "arctic monkeys": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "you try to be poetic and speak like alex. you're also a little pretentious, but you've got taste.",
         score: 8
     },
     "beabadoobee": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "50% of your time is spent living your life with her tunes. the other 50% is people saying 'bibbidy bobbidy boo'",
         score: 8
     },
     "her's": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "you have taste for dreamy, lofi, indie music. the band that once was...",
         score: 10
     },
     "paramore": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "you've stuck with them since your teenage years, or you found them recently... either way, you are one PASSIONATE and AUTHENTIC individual.",
         score: 8
     },
     "mac de marco": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "'chill rock' doesn't make him justice. you're the type of person i'd like to sit next to on the beach; maybe play some beach volleyball after.",
         score: 9
     },
     "the strokes": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "im not sure if you need therapy, but you like good music. you also praise julian casablancas like he's your lord and saviour.",
         score: 7
     },
     "men i trust": {
-        category: "chill-rock",
+        category: "chillrock",
         comment: "not rock, but still amazing. you feel things deeply, and your view on life is as enchanting as the music you listen to.",
         score: 7
     },
