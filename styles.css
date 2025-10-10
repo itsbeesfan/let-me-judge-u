@@ -15,14 +15,14 @@ body {
     height: 2.4rem;
     border-radius: 8px;
     border-color: transparent;
-    background-color: #2D31FA;
+    background-color: #585dfa;
     color: white;
     margin-left: 0.5rem;
     font-family: lexend;
 }
 
 #judge-button:hover {
-    background-color: #1418df;
+    background-color: #4245fd;
     scale: 1.02;
 }
 
@@ -105,6 +105,22 @@ body.existential #retry-button:hover {
     scale: 1.02;
 }
 
+body.spanishrock #retry-button {
+    background-color: #dc6320;
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.spanishrock #retry-button:hover {
+    background-color: #cd5712;
+    color: white;
+    scale: 1.02;
+}
+
 h1.existential {
     font-size: 3.5rem;
 }
@@ -126,13 +142,10 @@ p {
     vertical-align: center;
 }
 
-body.rock {
+body.hype-rock {
     background-color: black;
+    color: white;
     font-family: metal mania;
-}
-body.niche {
-    background-color: saddlebrown;
-    font-family: fascinate;
 }
 body.basic {
     background: #FFE0E9;
@@ -172,9 +185,10 @@ body.techno {
     color: dodgerblue;
 }
 
-body.spanish-rock {
-    background: black;
-    color: dodgerblue;
+body.spanishrock {
+    background: background: #d46719;
+    background: radial-gradient(circle, rgba(212, 103, 25, 1) 0%, rgba(192, 93, 23, 1) 19%, rgba(183, 89, 22, 1) 23%, rgba(3, 0, 0, 1) 100%);;
+    color: #f3ddca;
 }
 
 body.spanish-trap {

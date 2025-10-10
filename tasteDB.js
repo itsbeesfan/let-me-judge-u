@@ -292,47 +292,47 @@ const tasteDB = {
 
     // SPANISH ROCK VEREDICT
     "depresion sonora": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "follow your own rules, live your life. youre super rad.",
         score: 9
     },
     "enjambre": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "this is the mexican equivalent of the arctic monkeys, and i fw that heavy.",
         score: 8
     },
     "zoe": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "lots of soul, lots of love life disappointment. also either you fw the unplugged vibe or the classic vibe.",
         score: 8
     },
     "los enanitos verdes": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you like THE classics. you also probably wish you were born in the 80s.",
         score: 8
     },
     "enanitos verdes": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you like THE classics. you also probably wish you were born in the 80s.",
         score: 8
     },
     "soda stereo": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you wish you were argentinian. you also wish you were cerati.",
         score: 8
     },
     "gustavo cerati": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you think you're a hopeless romantic. maybe you are, but is it really a good thing?",
         score: 7
     },
     "hombres g": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you're either a 50-year old or a teenager that found out about their existence not too long ago.",
         score: 7
     },
     "mana": {
-        category: "spanish-rock",
+        category: "spanishrock",
         comment: "you cry to their lyrics. sometimes you can't relate, but man, they shake your bones.",
         score: 7
     },
@@ -368,5 +368,58 @@ const tasteDB = {
         category: "chill-rock",
         comment: "im not sure if you need therapy, but you like good music. you also praise julian casablancas like he's your lord and saviour.",
         score: 7
+    },
+    "men i trust": {
+        category: "chill-rock",
+        comment: "not rock, but still amazing. you feel things deeply, and your view on life is as enchanting as the music you listen to.",
+        score: 7
+    },
+
+
+    // HYPE ROCK VEREDICT
+    "maneskin": {
+        category: "hype-rock",
+        comment: "you get all of the girls. or boys. or anyone, really. you got that fire and passion inside you, and that's insanely attractive.",
+        score: 8
+    },
+    "system of a down": {
+        category: "hype-rock",
+        comment: "you're a little silly. you like rad, heavy, almost electric music though. it's great contrast.",
+        score: 8
+    },
+    "green day": {
+        category: "hype-rock",
+        comment: "your political opinions WILL be heard. you're great and authentic though.",
+        score: 7
+    },
+    "nirvana": {
+        category: "hype-rock",
+        comment: "gotta love the grungy, punky, noisy, teenage experience. you're cultured though, you're into the classics.",
+        score: 7
+    },
+    "red hot chilly peppers": {
+        category: "hype-rock",
+        comment: "not all that hype, but still. you're the type to have a roadtrip playlist and have this type of music for 80% of it.",
+        score: 7
+    },
+    "guns n roses": {
+        category: "hype-rock",
+        comment: "you wish people knew more than the top 5 songs. you've also been a 'rock enthusiast' for most of your life, probably thanks to your dad.",
+        score: 7
+    },
+    "ac/dc": {
+        category: "hype-rock",
+        comment: "your dad definitely showed them to you. and you're into the classics; embrace tradition, they say.",
+        score: 7
+    },
+    "queen": {
+        category: "hype-rock",
+        comment: "you love them, i love them, we all love them. you're an icon for knowing their least popular songs though.",
+        score: 8
+    },
+    "bon jovi": {
+        category: "hype-rock",
+        comment: "i'd like to think you're as hot as the group of men you listen to (yes, that is a compliment).",
+        score: 8
     },
 }

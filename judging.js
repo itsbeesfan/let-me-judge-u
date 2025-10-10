@@ -66,7 +66,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "kpop":
                 veredict = "you definitely have a bias. i can't judge you though.";
                 break;
-            case "spanish-rock":
+            case "spanishrock":
                 veredict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
                 break;
             case "spanish-trap":
@@ -130,6 +130,13 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "jazz-assets/pingu.png", top: "4%", right: "8%" },
                 { src: "jazz-assets/sax-cat.png", bottom: "7%", right: "43%" },
                 { src: "jazz-assets/vinyl.png", bottom: "23%", left: "14%" },
+            ],
+            spanishrock: [
+                { src: "spanishrock-assets/cerati%20texto.png", top: "5%", left: "3%"},
+                { src: "spanishrock-assets/cartman.png", bottom: "25%", right: "12%" },
+                { src: "spanishrock-assets/gatito.png", top: "2%", right: "8%" },
+                { src: "spanishrock-assets/guitarra.png", bottom: "7%", right: "43%" },
+                { src: "spanishrock-assets/pedrito.png", bottom: "23%", left: "14%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},
