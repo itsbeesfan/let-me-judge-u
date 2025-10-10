@@ -14,8 +14,15 @@ document.getElementById("judge-button").addEventListener("click", () => {
         .map(a => a.trim().toLowerCase())
         .filter(a => a !== "");
 
-    startScreen.style.display = "none";
-    loadingScreen.style.display = "block";
+    startScreen.classList.add("fade-out");
+    setTimeout(() => {
+        startScreen.style.display = "none";
+        startScreen.classList.remove("fade-out");
+        loadingScreen.style.display = "block";
+        loadingScreen.classList.add("fade-in");
+        setTimeout (() => loadingScreen.classList.remove("fade-in"), 600);
+    }, 500);
+
 
     setTimeout(() => {
         let totalScore = 0;
@@ -61,6 +68,15 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 break;
             case "spanish-rock":
                 veredict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
+                break;
+            case "spanish-trap":
+                veredict = "you're an absolute party beast AND/OR you blast your music everywhere you go.";
+                break;
+            case "chill-rock":
+                veredict = "you vibe to your own sound, and you probably know a little bit of guitar, bass or drums.";
+                break;
+            case "hype-rock":
+                veredict = "you're either a really old millenial or young, fiery and passionate";
                 break;
             default:
                 veredict = "i literally cannot categorize you, idk what your vibe is..."
@@ -142,9 +158,26 @@ document.getElementById("judge-button").addEventListener("click", () => {
 
 
 document.getElementById("retry-button").addEventListener("click", () => {
-    resultScreen.style.display = "none";
-    startScreen.style.display = "block";
-    document.body.className = "";
+    resultScreen.classList.add("fade-out");
+
+    const stickersContainer = document.getElementById("stickers");
+    if (stickersContainer) stickersContainer.classList.add("fade-out");
+
+    setTimeout(() => {
+        resultScreen.style.display = "none";
+        resultScreen.classList.remove("fade-out");
+
+        if (stickersContainer) {
+            stickersContainer.innerHTML = "";
+            stickersContainer.classList.remove("fade-out");
+        }
+
+        startScreen.style.display = "block";
+        startScreen.classList.add("fade-in");
+        document.body.className = "";
+
+        setTimeout(() => startScreen.classList.remove("fade-in"), 600);
+    }, 500);
 });
 
 function getDominantCategory(arr) {
@@ -153,4 +186,5 @@ function getDominantCategory(arr) {
     arr.forEach(cat => freq[cat] = (freq[cat] || 0) + 1);
     return Object.keys(freq).reduce((a, b) => freq[a] > freq[b] ? a : b);
 }
+
 

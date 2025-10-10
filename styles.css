@@ -10,17 +10,6 @@ body {
     margin-top: 15vh;
 }
 
-button {
-    width: 6rem;
-    height: 2.4rem;
-    border-radius: 8px;
-    border-color: transparent;
-    background-color: #2D31FA;
-    color: white;
-    margin-left: 0.5rem;
-    font-family: lexend;
-}
-
 #judge-button {
     width: 6rem;
     height: 2.4rem;
@@ -32,29 +21,88 @@ button {
     font-family: lexend;
 }
 
+#judge-button:hover {
+    background-color: #1418df;
+    scale: 1.02;
+}
+
 body.kpop #retry-button {
     background-color: rgb(58, 30, 115);
     color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.kpop #retry-button:hover {
+    background-color: rgb(33, 11, 74);
+    scale: 1.02;
 }
 
 body.basic #retry-button {
     background-color: #ff7aa2;
     color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.basic #retry-button:hover {
+    background-color: #e64879;
+    color: white;
+    scale: 1.02;
 }
 
 body.jazz #retry-button {
     background-color: #ffc63e;
     color: darkred;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.jazz #retry-button:hover {
+    background-color: #dd9f0e;
+    color: darkred;
+    scale: 1.02;
 }
 
 body.hiphop #retry-button {
     background-color: #0A4663;
     color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.hiphop #retry-button:hover {
+    background-color: #023951;
+    color: white;
+    scale: 1.02;
 }
 
 body.existential #retry-button {
     background-color: #C23110;
     color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.existential #retry-button:hover {
+    background-color: #951e03;
+    color: white;
+    scale: 1.02;
 }
 
 h1.existential {
@@ -120,12 +168,17 @@ body.kpop {
     color: rgb(58, 30, 115)
 }
 body.techno {
-    background-color: black;
+    background: black;
     color: dodgerblue;
 }
 
 body.spanish-rock {
-    background-color: black;
+    background: black;
+    color: dodgerblue;
+}
+
+body.spanish-trap {
+    background: black;
     color: dodgerblue;
 }
 
@@ -150,6 +203,7 @@ input {
 }
 
 #stickers {
+    transform: none !important;
     position: absolute;
     inset: 0;
     pointer-events: none;
@@ -161,7 +215,7 @@ input {
     position: absolute;
     width: 13.5rem;
     opacity: 0;
-    transform: scale(0.8);
+    z-index: 20;
     height: auto;
     animation:
             popIn 0.4s ease forwards,
@@ -184,4 +238,30 @@ input {
     pointer-events: auto;
     transform: scale(1.2) rotate(3deg);
     opacity: 1;
+}
+
+
+.content {
+    opacity: 1;
+    transform: scale(1);
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: opacity, transform;
+}
+
+.content.fade-out {
+    opacity: 0;
+    transform: scale(0.95);
+}
+
+.content.fade-in {
+    opacity: 0;
+    transform: scale(1.05);
+    animation: fadeIn 0.5s forwards cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(1.05);}
+    to { opacity: 1; transform: scale(1);}
 }

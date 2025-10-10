@@ -1,4 +1,6 @@
 const tasteDB = {
+
+    // ME VEREDICT
     "frank ocean": {
         category: "me",
         comment: "you feel things very strongly, don't you?",
@@ -39,6 +41,8 @@ const tasteDB = {
         comment: "you have to let me into more recs of this jazz, indie pop type feel",
         score: 9
     },
+
+    // BASIC VEREDICT
     "taylor swift": {
         category: "basic",
         comment: "main character, pumpkin spice ahh",
@@ -59,6 +63,26 @@ const tasteDB = {
         comment: "you peaked when 'firework' or 'flowers' came out. im sorry.",
         score: 4
     },
+    "olivia rodrigo": {
+        category: "basic",
+        comment: "either you think you're THAT girl or you're THAT girl. no in-between.",
+        score: 8
+    },
+    "harry styles": {
+        category: "basic",
+        comment: "how's life treating you? did you give up on your directioner fantasies yet?",
+        score: 5
+    },
+    "chappell roan": {
+        category: "basic",
+        comment: "hurts me to put this as basic. you go, ally!! i love you!!!",
+        score: 8
+    },
+    "gracie abrams": {
+        category: "basic",
+        comment: "you go, sad girl with a mix of folk-pop and indie! you go, girl!",
+        score: 6
+    },
     "beyonce": {
         category: "basic",
         comment: "...i mean you like good performances... the music tho...",
@@ -69,6 +93,9 @@ const tasteDB = {
         comment: "maybe youre into the backflips? interesting choice though...",
         score: 5
     },
+
+
+    // HIPHOP VEREDICT
     "kendrick lamar": {
         category: "hiphop",
         comment: "you appreciate good lyricism, and i appreciate your taste.",
@@ -94,6 +121,19 @@ const tasteDB = {
         comment: "sure, snoop did a lot for west coast rap, but can we mention his instagram meme page???",
         score: 7
     },
+    "tyler the creator": {
+        category: "hiphop",
+        comment: "you like the amazing production, the emotion, and the honesty. you're passionate, i like you (or you're basic).",
+        score: 7
+    },
+    "mac miller": {
+        category: "hiphop",
+        comment: "you miss him. so do i. you're probably also as chill and easy-going as he was.",
+        score: 9
+    },
+
+
+    // JAZZ VEREDICT
     "chet baker": {
         category: "jazz",
         comment: "you appreciate the classics. maybe youre a little outdated, but you still got taste.",
@@ -119,6 +159,19 @@ const tasteDB = {
         comment: "what instrument do you play in jazz band? let's make a band!",
         score: 8
     },
+    "laufey": {
+        category: "jazz",
+        comment: "gen z jazz, relatable lyrics, amazing taste!!",
+        score: 9
+    },
+    "insaneintherainmusic": {
+        category: "jazz",
+        comment: "youre a videogame enthusiast and a band kid. twin.",
+        score: 9
+    },
+
+
+    // EXISTENTIAL VEREDICT
     "radiohead": {
         category: "existential",
         comment: "are you doing okay mentally? you think too much, but your playlist goes hard.",
@@ -149,6 +202,14 @@ const tasteDB = {
         comment: "you appreciate the raw, emotional, guitar music. i would appreciate even more if you went to therapy.",
         score: 6
     },
+    "roar": {
+        category: "existential",
+        comment: "haunting and deeply relatable alt/indie/psychedelic rock. you good, buddy?",
+        score: 8
+    },
+
+
+    // KPOP VEREDICT
     "katseye": {
         category: "kpop",
         comment: "you swear katseye is not kpop, but if you like katseye im SURE you stan at least one kpop group.",
@@ -184,15 +245,23 @@ const tasteDB = {
         comment: "youre a massive stan... maybe to an obsessive point. you scare me a little.",
         score: 6
     },
-    "depresion sonora": {
-        category: "spanish-rock",
-        comment: "follow your own rules, live your life. youre super rad.",
-        score: 9
-    },
+
+
+    // SPANISH TRAP VEREDICT
     "milo j": {
         category: "spanish-trap",
         comment: "you like the trap stuff, and you vibe with the deep lyrics and homage to argentinian culture. massive respect.",
         score: 9
+    },
+    "bb trickz": {
+        category: "spanish-trap",
+        comment: "i don't get the lyrics... gotta respect the flow though...",
+        score: 7
+    },
+    "zenauh": {
+        category: "spanish-trap",
+        comment: "aw man... what genre do i even put this in... are you one of his 8 spotify listeners?",
+        score: 4
     },
     "c. tangana": {
         category: "spanish-trap",
@@ -203,6 +272,29 @@ const tasteDB = {
         category: "spanish-trap",
         comment: "you like sick verses, rap and trap. you're also probably really hype.",
         score: 8
+    },
+    "ca7riel y paco amoroso": {
+        category: "spanish-trap",
+        comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
+        score: 8
+    },
+    "ca7riel y paco": {
+        category: "spanish-trap",
+        comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
+        score: 8
+    },
+    "catriel y paco": {
+        category: "spanish-trap",
+        comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
+        score: 8
+    },
+
+
+    // SPANISH ROCK VEREDICT
+    "depresion sonora": {
+        category: "spanish-rock",
+        comment: "follow your own rules, live your life. youre super rad.",
+        score: 9
     },
     "enjambre": {
         category: "spanish-rock",
@@ -242,6 +334,39 @@ const tasteDB = {
     "mana": {
         category: "spanish-rock",
         comment: "you cry to their lyrics. sometimes you can't relate, but man, they shake your bones.",
+        score: 7
+    },
+
+
+    // CHILL ROCK VEREDICT
+    "arctic monkeys": {
+        category: "chill-rock",
+        comment: "you try to be poetic and speak like alex. you're also a little pretentious, but you've got taste.",
+        score: 8
+    },
+    "beabadoobee": {
+        category: "chill-rock",
+        comment: "50% of your time is spent living your life with her tunes. the other 50% is people saying 'bibbidy bobbidy boo'",
+        score: 8
+    },
+    "her's": {
+        category: "chill-rock",
+        comment: "you have taste for dreamy, lofi, indie music. the band that once was...",
+        score: 10
+    },
+    "paramore": {
+        category: "chill-rock",
+        comment: "you've stuck with them since your teenage years, or you found them recently... either way, you are one PASSIONATE and AUTHENTIC individual.",
+        score: 8
+    },
+    "mac de marco": {
+        category: "chill-rock",
+        comment: "'chill rock' doesn't make him justice. you're the type of person i'd like to sit next to on the beach; maybe play some beach volleyball after.",
+        score: 9
+    },
+    "the strokes": {
+        category: "chill-rock",
+        comment: "im not sure if you need therapy, but you like good music. you also praise julian casablancas like he's your lord and saviour.",
         score: 7
     },
 }
