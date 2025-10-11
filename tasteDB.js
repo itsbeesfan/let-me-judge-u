@@ -427,4 +427,67 @@ const tasteDB = {
         comment: "i'd like to think you're as hot as the group of men you listen to (yes, that is a compliment).",
         score: 8
     },
+
+
+    // REGUETON VEREDICT
+    "bad bunny": {
+        category: "regueton",
+        comment: "CON REGUETON Y DEMBOW EY CON REGUETON Y DEMBOW- you are the LIFE of the party.",
+        score: 8
+    },
+    "feid": {
+        category: "regueton",
+        comment: "gotta support colombian talent. you also either dance really well or you dance like a dying snail.",
+        score: 7
+    },
+    "blessd": {
+        category: "regueton",
+        comment: "you're a party animal or you're a 14 year old. or both. maybe you're both.",
+        score: 6
+    },
+    "daddy yankee": {
+        category: "regueton",
+        comment: "you're into the classics. you're also loud.",
+        score: 7
+    },
+    "maluma": {
+        category: "regueton",
+        comment: "you have GOOD taste (not just in music, ykwim? ;) ).",
+        score: 7
+    },
+    "quevedo": {
+        category: "regueton",
+        comment: "i don't have anything to say about you. you maybe considered putting other regueton artists here.",
+        score: 7
+    },
+    "tainy": {
+        category: "regueton",
+        comment: "haven't listened to their music. heard it's good though...",
+        score: 6
+    },
+    "omar courtz": {
+        category: "regueton",
+        comment: "you have to let me know what his music sounds like. ive never listened to it...",
+        score: 6
+    },
+    "saiko": {
+        category: "regueton",
+        comment: "is it normal regueton? please let me know what it sounds like, and maybe i'll listen to it.",
+        score: 6
+    },
+    "nicki nicole": {
+        category: "regueton",
+        comment: "i know more about the fact that she's lamine's girlfriend than about her music. sorry.",
+        score: 6
+    },
+    "mora": {
+        category: "regueton",
+        comment: "you go out a lot. you're also a little heartbroken. you're cool tho.",
+        score: 7
+    },
+    "don omar": {
+        category: "regueton",
+        comment: "you're into the OG reguetón. you're great at parties.",
+        score: 7
+    },
 }

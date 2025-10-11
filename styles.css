@@ -184,6 +184,21 @@ body.hyperock #retry-button:hover {
     scale: 1.02;
 }
 
+body.regueton #retry-button {
+    background-color: rgb(192, 12, 253);
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.regueton #retry-button:hover {
+    background-color: rgb(149, 7, 213);
+    scale: 1.02;
+}
+
 h1.existential {
     font-size: 3.5rem;
 }
@@ -198,6 +213,7 @@ h2 {
     text-align: center;
     vertical-align: center;
 }
+
 p {
     font-size: 1.2rem;
     font-family: lexend;
@@ -263,6 +279,12 @@ body.chillrock {
 body.spanishtrap {
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    color: #eddfff;
+}
+
+body.regueton {
+    background: #681194;
+    background: radial-gradient(circle, rgba(104, 17, 148, 1) 0%, rgba(23, 4, 33, 1) 100%);
     color: #eddfff;
 }
 
@@ -348,4 +370,8 @@ input {
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(1.05);}
     to { opacity: 1; transform: scale(1);}
+}
+
+#score {
+    font-size: 1.5rem;
 }
