@@ -2,7 +2,7 @@ const startScreen = document.getElementById('start-screen');
 const loadingScreen = document.getElementById('loading-screen');
 const resultScreen = document.getElementById('result-screen');
 
-const veredictEl = document.getElementById("veredict");
+const verdictEl = document.getElementById("verdict");
 const commentEl = document.getElementById("comment");
 const scoreEl = document.getElementById("score");
 
@@ -46,48 +46,48 @@ document.getElementById("judge-button").addEventListener("click", () => {
 
         const theme = getDominantCategory(categories);
 
-        let veredict;
+        let verdict;
         switch(theme) {
             case "me":
-                veredict = "omg you're literally me :0 can we be friends??";
+                verdict = "omg you're literally me :0 can we be friends??";
                 break;
             case "existential":
-                veredict = "are you okay? you stare at the ceiling at 2AM, don't you?";
+                verdict = "are you okay? you stare at the ceiling at 2AM, don't you?";
                 break;
             case "basic":
-                veredict = "girl, you think you're the main character...";
+                verdict = "girl, you think you're the main character...";
                 break;
             case "jazz":
-                veredict = "you listen to analogue, sip espresso and have a goatee.";
+                verdict = "you listen to analogue, sip espresso and have a goatee.";
                 break;
             case "hiphop":
-                veredict = "you got that laid back, effortlessly cool vibe."
+                verdict = "you got that laid back, effortlessly cool vibe."
                 break;
             case "kpop":
-                veredict = "you definitely have a bias. i can't judge you though.";
+                verdict = "you definitely have a bias. i can't judge you though.";
                 break;
             case "spanishrock":
-                veredict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
+                verdict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
                 break;
             case "spanishtrap":
-                veredict = "you're an absolute party beast AND/OR you blast your music everywhere you go.";
+                verdict = "you're an absolute party beast AND/OR you blast your music everywhere you go.";
                 break;
             case "chillrock":
-                veredict = "you vibe to your own sound, and you probably know a little bit of guitar, bass or drums.";
+                verdict = "you vibe to your own sound, and you probably know a little bit of guitar, bass or drums.";
                 break;
             case "hyperock":
-                veredict = "you're either a really old millenial or young, fiery and passionate";
+                verdict = "you're either a really old millenial or young, fiery and passionate";
                 break;
             case "regueton":
-                veredict = "you're the main character, and we should party sometime.";
+                verdict = "you're the main character, and we should party sometime.";
                 break;
             default:
-                veredict = "i literally cannot categorize you, idk what your vibe is..."
+                verdict = "i literally cannot categorize you, idk what your vibe is..."
         }
 
         loadingScreen.style.display = "none";
         resultScreen.style.display = "block";
-        veredictEl.textContent = veredict;
+        verdictEl.textContent = verdict;
         commentEl.innerHTML = comments.join("<br>");
         scoreEl.textContent = `score: ${avg.toFixed(1)}/10`;
 
@@ -226,3 +226,27 @@ function getDominantCategory(arr) {
 }
 
 
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const infoButton = document.getElementById('info-button');
+    const infoContent = document.getElementById('info-text');
+    const startSection = document.getElementById('start-screen');
+
+    if (!infoButton || !infoContent) {
+        console.warn('Info elements missing: #info-toggle or #info-content not found.');
+        return;
+    }
+
+
+    infoButton.addEventListener('click', (e) => {
+        if (startSection && !startSection.classList.contains('active')) {
+            startSection.classList.add('active');
+        }
+
+        const isOpen = infoContent.classList.toggle('active');
+        infoButton.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        infoContent.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+    });
+});

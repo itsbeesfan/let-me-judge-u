@@ -1,6 +1,6 @@
 const tasteDB = {
 
-    // ME VEREDICT
+    // ME VERDICT
     "frank ocean": {
         category: "me",
         comment: "you feel things very strongly, don't you?",
@@ -42,7 +42,7 @@ const tasteDB = {
         score: 9
     },
 
-    // BASIC VEREDICT
+    // BASIC VERDICT
     "taylor swift": {
         category: "basic",
         comment: "main character, pumpkin spice ahh",
@@ -95,7 +95,7 @@ const tasteDB = {
     },
 
 
-    // HIPHOP VEREDICT
+    // HIPHOP VERDICT
     "kendrick lamar": {
         category: "hiphop",
         comment: "you appreciate good lyricism, and i appreciate your taste.",
@@ -133,7 +133,7 @@ const tasteDB = {
     },
 
 
-    // JAZZ VEREDICT
+    // JAZZ VERDICT
     "chet baker": {
         category: "jazz",
         comment: "you appreciate the classics. maybe youre a little outdated, but you still got taste.",
@@ -171,7 +171,7 @@ const tasteDB = {
     },
 
 
-    // EXISTENTIAL VEREDICT
+    // EXISTENTIAL VERDICT
     "radiohead": {
         category: "existential",
         comment: "are you doing okay mentally? you think too much, but your playlist goes hard.",
@@ -214,7 +214,7 @@ const tasteDB = {
     },
 
 
-    // KPOP VEREDICT
+    // KPOP VERDICT
     "katseye": {
         category: "kpop",
         comment: "you swear katseye is not kpop, but if you like katseye im SURE you stan at least one kpop group.",
@@ -252,7 +252,7 @@ const tasteDB = {
     },
 
 
-    // SPANISH TRAP VEREDICT
+    // SPANISH TRAP VERDICT
     "milo j": {
         category: "spanishtrap",
         comment: "you like the trap stuff, and you vibe with the deep lyrics and homage to argentinian culture. massive respect.",
@@ -295,7 +295,7 @@ const tasteDB = {
     },
 
 
-    // SPANISH ROCK VEREDICT
+    // SPANISH ROCK VERDICT
     "depresion sonora": {
         category: "spanishrock",
         comment: "follow your own rules, live your life. youre super rad.",
@@ -343,7 +343,7 @@ const tasteDB = {
     },
 
 
-    // CHILL ROCK VEREDICT
+    // CHILL ROCK VERDICT
     "arctic monkeys": {
         category: "chillrock",
         comment: "you try to be poetic and speak like alex. you're also a little pretentious, but you've got taste.",
@@ -381,7 +381,7 @@ const tasteDB = {
     },
 
 
-    // HYPE ROCK VEREDICT
+    // HYPE ROCK VERDICT
     "maneskin": {
         category: "hyperock",
         comment: "you get all of the girls. or boys. or anyone, really. you got that fire and passion inside you, and that's insanely attractive.",
@@ -429,7 +429,7 @@ const tasteDB = {
     },
 
 
-    // REGUETON VEREDICT
+    // REGUETON VERDICT
     "bad bunny": {
         category: "regueton",
         comment: "CON REGUETON Y DEMBOW EY CON REGUETON Y DEMBOW- you are the LIFE of the party.",
