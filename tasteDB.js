@@ -41,6 +41,16 @@ const tasteDB = {
         comment: "you have to let me into more recs of this jazz, indie pop type feel",
         score: 9
     },
+    "jvke": {
+        category: "me",
+        comment: "you spend too much time on tiktok... so do i, high five!!",
+        score: 8
+    },
+    "SZA": {
+        category: "me",
+        comment: "yes!! gotta love the laid back, beautiful vocals. if you're a girl, you're definitely a girl's girl.",
+        score: 9
+    },
 
     // BASIC VERDICT
     "taylor swift": {
