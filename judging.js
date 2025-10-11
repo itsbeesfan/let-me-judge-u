@@ -226,19 +226,10 @@ function getDominantCategory(arr) {
 }
 
 
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const infoButton = document.getElementById('info-button');
     const infoContent = document.getElementById('info-text');
     const startSection = document.getElementById('start-screen');
-
-    if (!infoButton || !infoContent) {
-        console.warn('Info elements missing: #info-toggle or #info-content not found.');
-        return;
-    }
-
 
     infoButton.addEventListener('click', (e) => {
         if (startSection && !startSection.classList.contains('active')) {
@@ -250,3 +241,4 @@ document.addEventListener('DOMContentLoaded', () => {
         infoContent.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
     });
 });
+

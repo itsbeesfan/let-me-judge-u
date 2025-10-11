@@ -434,9 +434,3 @@ input {
     pointer-events: auto;
     max-height: 400px;
 }
-
-/* tiny responsive tweak */
-@media (max-width: 480px) {
-    #info-content { padding: 12px; font-size: 0.9rem; }
-    #info-section { width: calc(100% - 28px); }
-}
