@@ -81,6 +81,9 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "regueton":
                 verdict = "you're the main character, and we should party sometime.";
                 break;
+            case "bops":
+                verdict = "you like 'em tiktok, 21st century, gen z bops. how iconic.";
+                break;
             default:
                 verdict = "i literally cannot categorize you, idk what your vibe is..."
         }
@@ -142,7 +145,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "spanishrock-assets/pedrito.png", bottom: "18%", left: "14%" },
             ],
             spanishtrap: [
-                { src: "spanishtrap-assets/dj%20cat.png", bottom: "23%", left: "16%"},
+                { src: "spanishtrap-assets/dj%20cat.png", bottom: "23%", left: "8%"},
                 { src: "spanishtrap-assets/mic.png", top: "3%", right: "12%" },
                 { src: "spanishtrap-assets/rave.png", bottom: "14%", right: "11%" },
                 { src: "spanishtrap-assets/moon.png", bottom: "7%", right: "43%" },
@@ -163,11 +166,19 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "hyperock-assets/shouting.png", bottom: "23%", left: "12%" },
             ],
             regueton: [
-                { src: "regueton-assets/cards.png", top: "5%", left: "3%"},
+                { src: "regueton-assets/cards.png", top: "3%", left: "3%"},
                 { src: "regueton-assets/guaro.png", bottom: "28%", right: "9%" },
                 { src: "spanishtrap-assets/cat%20sunglasses.png", top: "2%", right: "8%" },
                 { src: "hiphop-assets/parental%20advisory.png", bottom: "7%", right: "41%" },
                 { src: "regueton-assets/volume.png", bottom: "19%", left: "12%" },
+            ],
+            bops: [
+                { src: "bops-assets/camera.png", top: "5%", left: "3%"},
+                { src: "bops-assets/y2k%20phone.png", bottom: "36%", right: "5%" },
+                { src: "spanishtrap-assets/cat%20sunglasses.png", top: "2%", right: "8%" },
+                { src: "spanishtrap-assets/rave.png", bottom: "7%", right: "28%" },
+                { src: "hyperock-assets/shouting.png", bottom: "29%", left: "7%" },
+                { src: "regueton-assets/volume.png", bottom: "12%", left: "31%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},

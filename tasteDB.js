@@ -41,11 +41,6 @@ const tasteDB = {
         comment: "you have to let me into more recs of this jazz, indie pop type feel",
         score: 9
     },
-    "jvke": {
-        category: "me",
-        comment: "you spend too much time on tiktok... so do i, high five!!",
-        score: 8
-    },
     "SZA": {
         category: "me",
         comment: "yes!! gotta love the laid back, beautiful vocals. if you're a girl, you're definitely a girl's girl.",
@@ -499,5 +494,43 @@ const tasteDB = {
         category: "regueton",
         comment: "you're into the OG reguetón. you're great at parties.",
         score: 7
+    },
+
+
+    // BOPS VERDICT
+    "jvke": {
+        category: "bops",
+        comment: "you spend too much time on tiktok... so do i, high five!!",
+        score: 8
+    },
+    "billie eilish": {
+        category: "bops",
+        comment: "you're probably gen z, and you find comfort in her music. we stan tho.",
+        score: 8
+    },
+    "charli xcx": {
+        category: "bops",
+        comment: "summer 2024 was YOUR summer. you also go out a lot, and you're authentic af. iconic.",
+        score: 9
+    },
+    "MGMT": {
+        category: "bops",
+        comment: "you look back with nostalgia to your younger years. live in the moment, enjoy. W taste.",
+        score: 8
+    },
+    "videoclub": {
+        category: "bops",
+        comment: "you know at least SOME french. you also like the synth pop 80s vibe; it makes you feel nostalgic.",
+        score: 8
+    },
+    "troye sivan": {
+        category: "bops",
+        comment: "you're an icon, you're (probably) a little queer, and you're hot.",
+        score: 8
+    },
+    "pink pantheress": {
+        category: "bops",
+        comment: "you're as multitalented as she is: chess grandmaster and musician.",
+        score: 8
     },
 }

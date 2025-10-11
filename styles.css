@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=New+Rocker&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=New+Rocker&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
 body {
     background-image: #2224B3;
     background-image: radial-gradient(circle, rgba(34, 36, 179, 1) 0%, rgba(70, 155, 252, 1) 100%);
@@ -199,6 +199,21 @@ body.regueton #retry-button:hover {
     scale: 1.02;
 }
 
+body.bops #retry-button {
+    background-color: rgb(10, 73, 64);
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.bops #retry-button:hover {
+    background-color: rgb(6, 55, 48);
+    scale: 1.02;
+}
+
 h1.existential {
     font-size: 3.5rem;
 }
@@ -260,32 +275,41 @@ body.kpop {
     font-family: racing sans one;
     color: rgb(58, 30, 115)
 }
-body.techno {
-    background: black;
-    color: dodgerblue;
-}
 
 body.spanishrock {
     background: #d46719;
     background: radial-gradient(circle, rgba(212, 103, 25, 1) 0%, rgba(192, 93, 23, 1) 19%, rgba(183, 89, 22, 1) 23%, rgba(3, 0, 0, 1) 100%);;
     color: #f3ddca;
+    font-family: fraunces, medium;
+    font-style: italic;
 }
 body.chillrock {
     background: #1A936F;
     background: radial-gradient(circle, rgba(26, 147, 111, 1) 0%, rgba(17, 75, 95, 1) 100%);
     color: #faeade;
+    font-family: fraunces, medium;
+    font-style: italic;
 }
 
 body.spanishtrap {
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     color: #eddfff;
+    font-family: skranji;
 }
 
 body.regueton {
     background: #681194;
     background: radial-gradient(circle, rgba(104, 17, 148, 1) 0%, rgba(23, 4, 33, 1) 100%);
     color: #eddfff;
+    font-family: skranji;
+}
+
+body.bops {
+    background: #5fc68d;
+    background: radial-gradient(circle, rgb(96, 195, 138) 0%, rgba(0, 78, 102, 1) 100%);
+    color: #dff8f4;
+    font-family: racing sans one;
 }
 
 .spinner {
@@ -434,3 +458,4 @@ input {
     pointer-events: auto;
     max-height: 400px;
 }
+
