@@ -69,7 +69,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "spanishrock":
                 veredict = "you're into the 'rock en español' classics and you scream every time one of your songs comes on.";
                 break;
-            case "spanish-trap":
+            case "spanishtrap":
                 veredict = "you're an absolute party beast AND/OR you blast your music everywhere you go.";
                 break;
             case "chillrock":
@@ -137,6 +137,13 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "spanishrock-assets/gatito.png", top: "2%", right: "8%" },
                 { src: "spanishrock-assets/guitarra.png", bottom: "7%", right: "43%" },
                 { src: "spanishrock-assets/pedrito.png", bottom: "18%", left: "14%" },
+            ],
+            spanishtrap: [
+                { src: "spanishtrap-assets/dj%20cat.png", bottom: "23%", left: "16%"},
+                { src: "spanishtrap-assets/mic.png", top: "3%", right: "12%" },
+                { src: "spanishtrap-assets/rave.png", bottom: "14%", right: "11%" },
+                { src: "spanishtrap-assets/moon.png", bottom: "7%", right: "43%" },
+                { src: "spanishtrap-assets/cat%20sunglasses.png", top: "1%", left: "14%" },
             ],
             chillrock: [
                 { src: "chillrock-assets/converse.png", top: "5%", left: "3%"},

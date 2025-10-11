@@ -254,42 +254,42 @@ const tasteDB = {
 
     // SPANISH TRAP VEREDICT
     "milo j": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "you like the trap stuff, and you vibe with the deep lyrics and homage to argentinian culture. massive respect.",
         score: 9
     },
     "bb trickz": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "i don't get the lyrics... gotta respect the flow though...",
         score: 7
     },
     "zenauh": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "aw man... what genre do i even put this in... are you one of his 8 spotify listeners?",
         score: 4
     },
     "c. tangana": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "tell me you fw tiny desks, sick trap origins and folklore homages without telling me you like all that. i love you.",
         score: 8
     },
     "trueno": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "you like sick verses, rap and trap. you're also probably really hype.",
         score: 8
     },
     "ca7riel y paco amoroso": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
         score: 8
     },
     "ca7riel y paco": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
         score: 8
     },
     "catriel y paco": {
-        category: "spanish-trap",
+        category: "spanishtrap",
         comment: "you love tiny desks, and you love talented music with silly lyrics. you're the life of the party.",
         score: 8
     },

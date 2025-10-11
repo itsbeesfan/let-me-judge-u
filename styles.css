@@ -104,8 +104,8 @@ body.hiphop #retry-button:hover {
     scale: 1.02;
 }
 
-body.spanish-trap #retry-button {
-    background-color: #731e38;
+body.spanishtrap #retry-button {
+    background-color: #d52345;
     color: white;
     width: 6rem;
     height: 2.4rem;
@@ -114,8 +114,8 @@ body.spanish-trap #retry-button {
     font-family: lexend;
 }
 
-body.spanish-trap #retry-button:hover {
-    background-color: #500d24;
+body.spanishtrap #retry-button:hover {
+    background-color: #9c0d2c;
     color: white;
     scale: 1.02;
 }
@@ -243,7 +243,7 @@ body.chillrock {
     color: #faeade;
 }
 
-body.spanish-trap {
+body.spanishtrap {
     background: #3F5EFB;
     background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
     color: #eddfff;
