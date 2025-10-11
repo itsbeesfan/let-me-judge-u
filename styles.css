@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Fascinate&family=Indie+Flower&family=Instrument+Serif:ital@0;1&family=Lexend:wght@100..900&family=New+Rocker&family=Racing+Sans+One&family=Skranji:wght@400;700&family=Special+Elite&display=swap');
 body {
     background-image: #2224B3;
     background-image: radial-gradient(circle, rgba(34, 36, 179, 1) 0%, rgba(70, 155, 252, 1) 100%);
@@ -168,6 +168,22 @@ body.chillrock #retry-button:hover {
     scale: 1.02;
 }
 
+body.hyperock #retry-button {
+    background-color: #d83a0a;
+    color: white;
+    width: 6rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    border-color: transparent;
+    font-family: lexend;
+}
+
+body.hyperock #retry-button:hover {
+    background-color: #df3813;
+    color: white;
+    scale: 1.02;
+}
+
 h1.existential {
     font-size: 3.5rem;
 }
@@ -189,10 +205,11 @@ p {
     vertical-align: center;
 }
 
-body.hype-rock {
-    background-color: black;
-    color: white;
-    font-family: metal mania;
+body.hyperock {
+    background: #942911;
+    background: radial-gradient(circle, rgba(148, 41, 17, 1) 0%, rgb(58, 31, 30) 100%);
+    color: #f3d9d9;
+    font-family: new rocker;
 }
 body.basic {
     background: #FFE0E9;

@@ -75,7 +75,7 @@ document.getElementById("judge-button").addEventListener("click", () => {
             case "chillrock":
                 veredict = "you vibe to your own sound, and you probably know a little bit of guitar, bass or drums.";
                 break;
-            case "hype-rock":
+            case "hyperock":
                 veredict = "you're either a really old millenial or young, fiery and passionate";
                 break;
             default:
@@ -134,8 +134,8 @@ document.getElementById("judge-button").addEventListener("click", () => {
             spanishrock: [
                 { src: "spanishrock-assets/cerati%20texto.png", top: "5%", left: "3%"},
                 { src: "spanishrock-assets/cartman.png", bottom: "25%", right: "12%" },
-                { src: "spanishrock-assets/gatito.png", top: "2%", right: "8%" },
-                { src: "spanishrock-assets/guitarra.png", bottom: "7%", right: "43%" },
+                { src: "spanishrock-assets/guitarra.png", top: "2%", right: "8%" },
+                { src: "spanishrock-assets/gatito.png", bottom: "7%", right: "43%" },
                 { src: "spanishrock-assets/pedrito.png", bottom: "18%", left: "14%" },
             ],
             spanishtrap: [
@@ -151,6 +151,13 @@ document.getElementById("judge-button").addEventListener("click", () => {
                 { src: "chillrock-assets/sticker.png", top: "2%", right: "8%" },
                 { src: "chillrock-assets/snoopy.png", bottom: "7%", right: "43%" },
                 { src: "chillrock-assets/walkman.png", bottom: "18%", left: "14%" },
+            ],
+            hyperock: [
+                { src: "hyperock-assets/fender.png", top: "5%", left: "3%"},
+                { src: "hyperock-assets/casette.png", bottom: "25%", right: "12%" },
+                { src: "hyperock-assets/chevy.png", top: "2%", right: "8%" },
+                { src: "chillrock-assets/guitar.png", bottom: "7%", right: "43%" },
+                { src: "hyperock-assets/shouting.png", bottom: "23%", left: "12%" },
             ],
             kpop: [
                 { src: "kpop-assets/circle%20asset%20thing.png", top: "10%", left: "5%"},

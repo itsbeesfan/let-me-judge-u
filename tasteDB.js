@@ -303,7 +303,7 @@ const tasteDB = {
     },
     "enjambre": {
         category: "spanishrock",
-        comment: "this is the mexican equivalent of the arctic monkeys, and i fw that heavy.",
+        comment: "this is my mexican equivalent of the arctic monkeys, and i fw that heavy.",
         score: 8
     },
     "zoe": {
@@ -383,47 +383,47 @@ const tasteDB = {
 
     // HYPE ROCK VEREDICT
     "maneskin": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "you get all of the girls. or boys. or anyone, really. you got that fire and passion inside you, and that's insanely attractive.",
         score: 8
     },
     "system of a down": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "you're a little silly. you like rad, heavy, almost electric music though. it's great contrast.",
         score: 8
     },
     "green day": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "your political opinions WILL be heard. you're great and authentic though.",
         score: 7
     },
     "nirvana": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "gotta love the grungy, punky, noisy, teenage experience. you're cultured though, you're into the classics.",
         score: 7
     },
     "red hot chilly peppers": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "not all that hype, but still. you're the type to have a roadtrip playlist and have this type of music for 80% of it.",
         score: 7
     },
     "guns n roses": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "you wish people knew more than the top 5 songs. you've also been a 'rock enthusiast' for most of your life, probably thanks to your dad.",
         score: 7
     },
     "ac/dc": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "your dad definitely showed them to you. and you're into the classics; embrace tradition, they say.",
         score: 7
     },
     "queen": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "you love them, i love them, we all love them. you're an icon for knowing their least popular songs though.",
         score: 8
     },
     "bon jovi": {
-        category: "hype-rock",
+        category: "hyperock",
         comment: "i'd like to think you're as hot as the group of men you listen to (yes, that is a compliment).",
         score: 8
     },
